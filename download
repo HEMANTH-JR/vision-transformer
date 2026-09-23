@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Data and models (too large for git)
+data/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Logs and experiment output
+runs/
+wandb/
+logs/
+outputs/
+
+# Secrets and OS files
+.env
+.DS_Store
